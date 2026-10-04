@@ -50,15 +50,15 @@ export default function Hero() {
 
       <div className="mx-auto mt-9 grid max-w-xl grid-cols-3 gap-4 text-center">
         <div>
-          <div className="text-xl font-extrabold text-ember-light">18 to 25t</div>
+          <div className="text-xl font-extrabold text-ember-light">18 to 25Ton</div>
           <div className="text-xs text-muted">{t.hero.stat1}</div>
         </div>
         <div>
-          <div className="text-xl font-extrabold text-ember-light">90t</div>
+          <div className="text-xl font-extrabold text-ember-light">90Ton</div>
           <div className="text-xs text-muted">{t.hero.stat2}</div>
         </div>
         <div>
-          <div className="text-xl font-extrabold text-ember-light">2026</div>
+          <div className="text-xl font-extrabold text-ember-light">2025</div>
           <div className="text-xs text-muted">{t.hero.stat3}</div>
         </div>
       </div>
