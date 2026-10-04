@@ -31,21 +31,12 @@ export default function Hero() {
         </a>
       </div>
 
-      <div className="mt-10 aspect-[16/7] overflow-hidden rounded-2xl border border-line bg-card">
+      <div className="mt-10 aspect-[16/9] overflow-hidden rounded-2xl border border-line bg-card">
         <img
           src="/images/pabrik.jpg"
           alt="Factory and export container"
           className="h-full w-full object-cover"
         />
-      </div>
-
-      <div className="mt-7 flex flex-wrap justify-center gap-3">
-        <span className="rounded-lg border border-line bg-card px-4 py-2 text-xs text-muted">
-          {t.hero.badge1}
-        </span>
-        <span className="rounded-lg border border-line bg-card px-4 py-2 text-xs text-muted">
-          {t.hero.badge2}
-        </span>
       </div>
 
       <div className="mx-auto mt-9 grid max-w-xl grid-cols-3 gap-4 text-center">
