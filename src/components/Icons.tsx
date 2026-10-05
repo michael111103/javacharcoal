@@ -194,3 +194,38 @@ export function FilterIcon({ className }: IconProps) {
     </svg>
   );
 }
+
+export function MillIcon({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M4 5h16l-6 7v7h-4v-7L4 5Z" />
+    </svg>
+  );
+}
+
+export function BowlIcon({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <path d="M4 11h16a8 8 0 0 1-16 0Z" />
+      <path d="M8 11V7a4 4 0 0 1 8 0v4" />
+    </svg>
+  );
+}
+
+export function KilnIcon({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <rect x="5" y="4" width="14" height="16" rx="2" />
+      <path d="M9 20v-3a3 3 0 0 1 6 0v3" />
+    </svg>
+  );
+}
+
+export function ScanIcon({ className }: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className={className}>
+      <rect x="4" y="4" width="16" height="16" rx="2" />
+      <path d="M9 12l2 2 4-4.5" />
+    </svg>
+  );
+}
