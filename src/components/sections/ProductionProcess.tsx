@@ -1,4 +1,4 @@
-"use client";
+""use client";
 
 import { useLanguage } from "@/lib/LanguageContext";
 import {
@@ -55,4 +55,3 @@ export default function ProductionProcess() {
   );
 }
 
-}
