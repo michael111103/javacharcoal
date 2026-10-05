@@ -15,9 +15,9 @@ import {
 const icons = [CoconutIcon, MillIcon, BowlIcon, PressIcon, KilnIcon, ScanIcon, BoxIcon, ShipIcon];
 
 const images = [
-  "process-raw-material.jpg",
-  "process-mixing.jpg",
-  "process-blending.jpg",
+  "raw.jpg",
+  "mixing.jpg",
+  "blending.jpg",
   "process-forming.jpg",
   "process-drying-firing.jpg",
   "process-quality-control.jpg",
