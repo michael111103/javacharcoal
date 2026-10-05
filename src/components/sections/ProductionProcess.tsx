@@ -1,9 +1,29 @@
 "use client";
 
 import { useLanguage } from "@/lib/LanguageContext";
-import { CoconutIcon, PressIcon, BoxIcon, ShipIcon } from "@/components/Icons";
+import {
+  CoconutIcon,
+  MillIcon,
+  BowlIcon,
+  PressIcon,
+  KilnIcon,
+  ScanIcon,
+  BoxIcon,
+  ShipIcon,
+} from "@/components/Icons";
 
-const icons = [CoconutIcon, PressIcon, BoxIcon, ShipIcon];
+const icons = [CoconutIcon, MillIcon, BowlIcon, PressIcon, KilnIcon, ScanIcon, BoxIcon, ShipIcon];
+
+const images = [
+  "process-raw-material.jpg",
+  "process-mixing.jpg",
+  "process-blending.jpg",
+  "process-forming.jpg",
+  "process-drying-firing.jpg",
+  "process-quality-control.jpg",
+  "process-packaging.jpg",
+  "process-distribution.jpg",
+];
 
 export default function ProductionProcess() {
   const { t } = useLanguage();
@@ -20,7 +40,10 @@ export default function ProductionProcess() {
             const Icon = icons[i];
             return (
               <div key={s.title} className="text-center">
-                <Icon className="mx-auto mb-3 h-9 w-9 text-ember" />
+                <div className="mb-3 aspect-square overflow-hidden rounded-xl border border-line bg-card">
+                  <img src={`/images/${images[i]}`} alt={s.title} className="h-full w-full object-cover" />
+                </div>
+                <Icon className="mx-auto mb-2 h-7 w-7 text-ember" />
                 <h4 className="mb-1 text-sm font-bold">{s.title}</h4>
                 <p className="text-xs text-muted">{s.desc}</p>
               </div>
@@ -30,4 +53,6 @@ export default function ProductionProcess() {
       </div>
     </section>
   );
+}
+
 }
