@@ -22,7 +22,7 @@ const images = [
   "drying.jpg",
   "qc.jpg",
   "packaging.jpg",
-  "process-distribution.jpg",
+  "distribution.jpg",
 ];
 
 export default function ProductionProcess() {
