@@ -15,7 +15,7 @@ export default function QualityProof() {
           {t.quality.tag}
         </span>
         <h2 className="mb-9 mt-2 text-center text-3xl font-extrabold">{t.quality.title}</h2>
-        <div className="mb-7 grid grid-cols-2 gap-4 md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
           {t.quality.points.map((p, i) => {
             const Icon = icons[i];
             return (
@@ -26,32 +26,6 @@ export default function QualityProof() {
               </div>
             );
           })}
-        </div>
-        <div className="overflow-x-auto rounded-2xl border border-line bg-card p-6">
-          <div className="mb-4 flex flex-wrap items-center justify-between gap-2 text-sm font-bold">
-            <span>{t.quality.labTitle}</span>
-            <span className="text-xs font-bold text-ember-light">{t.quality.labSource}</span>
-          </div>
-          <table className="w-full min-w-[420px] text-sm">
-            <thead>
-              <tr className="border-b border-line text-left text-muted">
-                {t.quality.labHeaders.map((h) => (
-                  <th key={h} className="py-2 pr-4 font-semibold">
-                    {h}
-                  </th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {t.quality.labRows.map((row) => (
-                <tr key={row[0]} className="border-b border-line">
-                  <td className="py-2 pr-4">{row[0]}</td>
-                  <td className="py-2 pr-4">{row[1]}</td>
-                  <td className="py-2">{row[2]}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
         </div>
       </div>
     </section>
