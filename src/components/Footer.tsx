@@ -27,7 +27,7 @@ export default function Footer() {
       <div className="mx-auto grid max-w-6xl gap-10 px-6 pb-10 sm:grid-cols-3">
         <div>
           <div className="mb-3 flex items-center gap-2 font-extrabold text-ink">
-            <span className="h-7 w-7 rounded-full bg-gradient-to-br from-ember to-ember-light" />
+            <img src="/images/logo.png" alt="Java Charcoal logo" className="h-7 w-7 object-contain" />
             JAVA CHARCOAL
           </div>
           <p className="mb-5">{t.footer.tagline}</p>
