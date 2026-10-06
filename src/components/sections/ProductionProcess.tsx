@@ -20,8 +20,8 @@ const images = [
   "blending.jpg",
   "forming.jpg",
   "drying.jpg",
-  "process-quality-control.jpg",
-  "process-packaging.jpg",
+  "qc.jpg",
+  "packaging.jpg",
   "process-distribution.jpg",
 ];
 
