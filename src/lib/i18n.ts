@@ -144,7 +144,7 @@ const en: Translations = {
         specs: [
           ["Ash content", "2% to 3%"],
           ["Material", "Coconut shell charcoal"],
-          ["Packaging", "Inner plastic, inner box, outer box"],
+          ["Packaging", "Box, Inner plastic"],
         ],
       },
       {
