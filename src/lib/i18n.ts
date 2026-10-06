@@ -84,6 +84,10 @@ export interface Translations {
   };
   footer: {
     tagline: string;
+    headOfficeLabel: string;
+    navTitle: string;
+    contactTitle: string;
+    bottomTagline: string;
   };
   blog: {
     tag: string;
@@ -230,7 +234,11 @@ const en: Translations = {
     waIntro: "Hello, I would like to request a quotation.",
   },
   footer: {
-    tagline: "Semarang, Central Java, Indonesia. Coconut charcoal export supplier.",
+    tagline: "Coconut Charcoal Export Supplier",
+    headOfficeLabel: "HEAD OFFICE",
+    navTitle: "NAVIGATION",
+    contactTitle: "CONTACT US",
+    bottomTagline: "Indonesia's trusted coconut charcoal export supplier",
   },
   blog: {
     tag: "Insights",
@@ -377,7 +385,11 @@ const id: Translations = {
     waIntro: "Halo, saya ingin meminta penawaran.",
   },
   footer: {
-    tagline: "Semarang, Jawa Tengah, Indonesia. Eksportir briket arang batok kelapa.",
+    tagline: "Eksportir Briket Arang Batok Kelapa",
+    headOfficeLabel: "KANTOR PUSAT",
+    navTitle: "NAVIGASI",
+    contactTitle: "HUBUNGI KAMI",
+    bottomTagline: "Eksportir briket arang kelapa terpercaya dari Indonesia",
   },
   blog: {
     tag: "Wawasan",
@@ -392,3 +404,4 @@ const id: Translations = {
 };
 
 export const translations: Record<Locale, Translations> = { en, id };
+
